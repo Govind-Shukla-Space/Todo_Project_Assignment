@@ -144,10 +144,6 @@ export default function HomePage() {
           </CardFooter>
         </Card>
       </main>
-      <footer className="text-center mt-12 text-sm text-muted-foreground">
-        <p>&copy; {new Date().getFullYear()} TaskFlow AI. All rights reserved.</p>
-        <p className="mt-1">Remember to set your SLACK_WEBHOOK_URL in a .env.local file.</p>
-      </footer>
     </div>
   );
 }
